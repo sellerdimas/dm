@@ -24,15 +24,22 @@ Template.modal1.events({
             console.log(Template.currentData());
     }
 });
-Template.modal3.events({
-    'click .modalSended img': function (e) {
-        $('#modal3').closeModal();
+
+Template.modal1.events({
+    'click .close': function (e) {
+        $('#modal1').closeModal();
+
     }
 });
 Template.modal2.events({
-    'click #modal2 img': function (e) {
+    'click .close': function (e) {
         $('#modal2').closeModal();
 
+    }
+});
+Template.modal3.events({
+    'click .close': function (e) {
+        $('#modal3').closeModal();
     }
 });
 Template.modal2.events({
