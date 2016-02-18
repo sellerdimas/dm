@@ -109,6 +109,23 @@
   background: #E94660;
 }
 /* =============================infoBlock============================== */
+/* =============================advantages============================== */
+#advantages{
+  padding-bottom: 50px;
+}
+.advantages img{
+  float: left;
+}
+.advantages h5{
+  font-family: OpenSansBold;
+  font-size: 18px;
+  color: #333333;
+}
+.advantages p{
+
+  color: #414141;
+}
+/* =============================advantages============================== */
 @font-face {
 font-family: blisspro-light;
 src: local("blisspro-light"), url("fonts/blisspro-light.otf");
