@@ -449,9 +449,9 @@ nav ul a:hover {
 .modal{
     font-family: ClinicaPro-Regular;
 }
-.modal img{
+/* .modal img{
   float: left;
-}
+} */
 .modalPrice{
   font-size: 24px;
   color: #999999;
@@ -479,7 +479,10 @@ nav ul a:hover {
   background: #E94660;
   font-weight: 600;
 }
+#modal3 h5{
+  font-family: OpenSansBold;
 
+}
 .modalSendButt:hover{
   background: #E94660;
 }
