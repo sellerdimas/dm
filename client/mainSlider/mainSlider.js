@@ -2,7 +2,7 @@ Template.mainSlider.events({
        'click .sliderButton': function (e) {
         e.preventDefault();
         var destination = $('.tovar').offset().top;
-        var minus = destination - 95;
+        var minus = destination - 60;
         $("body,html").animate({scrollTop: minus }, 800);
 
     }

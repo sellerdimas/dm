@@ -20,10 +20,17 @@
     line-height: 22px;
     font-family: OpenSansBold;
 }
+.ModalTovarHeader{
+  font-family: OpenSansBold;
+  font-size: 20px;
+}
 .firma{
     font-size: 14px;
     margin: 2px 0;
     color: #333333;
+}
+.modalFirma{
+  font-size: 10px;
 }
 .price{
     color: #999999;
@@ -42,9 +49,12 @@
 }
 /* =============================tovar============================== */
 /* =============================infoBlock============================== */
+.tangle{
+  color:#E94660;
+}
 .infoBlock{
   height: 600px;
-      background:url(http://bling-blings.ru/uploads/item/01/01/9j/4f7d63b042b896a9.jpg) center no-repeat;
+      background:url(https://pp.vk.me/c630130/v630130230/157ad/Yj_qpPf-c0g.jpg) center no-repeat;
 
   color: #ffffff;
 }
@@ -52,9 +62,10 @@
   margin-top: 85px;
   height: 120px;
   background: rgba(240,170,156,0.8);
-  padding: 40px 0 30px 0;
+  padding: 60px 0 10px 0;
 }
 .info1 h4{
+  margin: 40px 0 30px 0;
 
 }
 .info2{
@@ -69,7 +80,7 @@
 } 
 .info3{
   height: 310px;
-  background: rgba(233,70,96,0.6);
+  background: rgba(233,70,96,0.3);
     margin-bottom: 85px;
 }
 .info3 ul{
@@ -83,11 +94,13 @@
 }
 .info4{
   height: 310px;
- background: rgba(255,255,255,0.5);
+ background: rgba(189,189,189,0.8);
+
  color:#333333;
 }
 .info4 h5{
   font-family: OpenSansBold;
+  color: black;
 }
 .name2, .number2{
   margin-left: 5px;
@@ -171,9 +184,8 @@ src: local("OpenSansBold"), url("fonts/OpenSansBold.ttf");
   font-family: OpenSansBold;
 }
 .textContentBlack{
-    font-family: FiraSansOT-Regular;
-    letter-spacing: -1px;
-    font-size: 1.45rem;
+    font-family: OpenSansRegular;
+    font-size: 12px;
     color: #414141;
 }
 .headerBlue{
@@ -324,14 +336,14 @@ nav ul a:hover {
 }
 /* ===================================info=============================== */
 .info{
-    min-height: 300px;
-    background-color: #12A3D4;
+    background-color: #E94660;
     padding-top: 70px;
     padding-bottom: 70px;
     font-family: ClinicaPro-Regular;
 }
 .info h5{
-    font-family: ClinicaPro-Regular;
+    font-family: OpenSansBold;
+    font-size: 18px;
     color: #FFFFFF;
 }
 .info p{
@@ -339,6 +351,19 @@ nav ul a:hover {
     color: #FFFFFF;
 }
 /* ===================================info=============================== */
+.proces h5{
+
+    font-family: OpenSansBold;
+    font-size: 20px;
+    color: #414141;
+
+}
+.proces {
+  margin-top: 50px;
+}
+.procesBlock{
+
+}
 /* ===================================services=============================== */
 
 .servicesMain{
@@ -467,8 +492,14 @@ nav ul a:hover {
   border-bottom: 1px solid grey;
 } */
 .modal p{
-    font-size: 19px;
+    font-size: 16px;
 }
+#mAkcii{
+  font-size: 20px;
+}
+ #mPrice{
+  font-size: 20px;
+ }
 #modal2{
     overflow: visible;
   z-index: 55;
@@ -481,6 +512,11 @@ nav ul a:hover {
 }
 #modal3 h5{
   font-family: OpenSansBold;
+
+}
+#modal2 h5{
+  font-family: OpenSansBold;
+  font-size: 18px;
 
 }
 .modalSendButt:hover{
@@ -496,7 +532,7 @@ nav ul a:hover {
 #modal3{
   color: #ffffff;
   background: #98C42D;
-  overflow: visible;
+  overflow: auto;
   z-index: 55;
 
 }
@@ -534,7 +570,7 @@ nav ul a:hover {
   margin-right: 4px;
 }
 .slide span{
-  font-size: 1.625rem;
+  font-size: 20px;
 }
 /*=============================preLoader============================== */
 .loading-message {

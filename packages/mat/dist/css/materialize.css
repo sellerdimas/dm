@@ -6418,7 +6418,7 @@ a.waves-effect .waves-ripple {
 
 /* Remove Focus Boxes */
 select:focus {
-  outline: 1px solid #c9f3ef; }
+  outline: 1px solid #FDC1CA; }
 
 button:focus {
   outline: none;
