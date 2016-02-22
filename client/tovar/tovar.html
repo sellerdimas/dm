@@ -4,92 +4,29 @@
             <div class="col s10 offset-s1">
                 <h3 class="center-align headerBlue">Модные купальники</h3>
                 <h5 class="subHeaderBlack center-align">Новая колекция 2016 от поставщика на прямую</h5>
-          {{#each tovarNewCollections}}
-           <div class="col s4 m3 tovarBlock modal1" id="tovar" name="{{_id}}">
-               <div class="servicesBlockImg">
-                   <img src="{{imgSrc}}" class="responsive-img" alt=""></div>
-               <div class="">
-                   <div class="tovarHeader">
-                       {{tovarHeader}}
-
-                   </div>
-                   <div class="firma">{{firma}}</div>
-                   <div class="price">
-                       <span class="akcia">{{akcii}}</span>
-                       <span>{{price}} </span>
-                       <span class="buyTovar">купить</span>
-                   </div>
-               </div>
-           </div>
-           {{/each}}
-
-
-                <!-- <div class="col s3 tovarBlock modal1" id="tovar">
+                {{#each tovarNewCollections}}
+                <div class="col s4 m3 tovarBlock modal1" id="tovar" name="{{_id}}">
+                    {{#if sale}}
+                    <div class="sale">SALE</div>
+                    {{/if}}
+                {{#if new}}
+                    <div class="new">NEW</div>
+                    {{/if}}
                     <div class="servicesBlockImg">
-                        <img src="tovar2.jpeg" class="responsive-img" alt=""></div>
+                        <img src="{{imgSrc}}" class="responsive-img" alt=""></div>
+
                     <div class="">
-                        <div class="tovarHeader">
-                            моделирующими чашками Daniela Verso 
-                            2015 04D
-                        </div>
-                        <div class="firma">Viktoria Secret</div>
+                        <div class="tovarHeader">{{tovarHeader}}</div>
+                        <div class="firma">{{firma}}</div>
                         <div class="price">
-                            <span class="akcia">9020 грн.</span>
-                            <span>123 грн.</span>
+                            <span class="akcia">{{akcii}}</span>
+                            <span>{{price}}</span>
                             <span class="buyTovar">купить</span>
                         </div>
                     </div>
                 </div>
-                <div class="col s3 tovarBlock modal1" id="tovar">
-                    <div class="servicesBlockImg">
-                        <img src="tovar2.jpeg" class="responsive-img" alt=""></div>
-                    <div class="">
-                        <div class="tovarHeader">
-                            моделирую
-                        </div>
-                        <div class="firma">Viktoria Secret</div>
-                        <div class="price">
-                            <span class="akcia">9123 грн.</span>
-                            <span>4254 грн.</span>
-                            <span class="buyTovar">купить</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s3 tovarBlock modal1" id="tovar">
-                    <div class="servicesBlockImg">
-                        <img src="tovar2.jpeg" class="responsive-img" alt=""></div>
-                    <div class="">
-                        <div class="tovarHeader">
-                            моделирующими чашками Daniela Verso 
-                            2015 04D
-                        </div>
-                        <div class="firma">Viktoria Secret</div>
-                        <div class="price">
-                            <span class="akcia">900 грн.</span>
-                            <span>454 грн.</span>
-                            <span class="buyTovar">купить</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s3 tovarBlock modal1" id="tovar">
-                    <div class="servicesBlockImg">
-                        <img src="tovar2.jpeg" class="responsive-img" alt=""></div>
-                    <div class="">
-                        <div class="tovarHeader">
-                            моделирующими чашками Daniela Verso 
-                            2015 04D
-                        </div>
-                        <div class="firma">Viktoria Secret</div>
-                        <div class="price">
-                            <span class="akcia">900 грн.</span>
-                            <span>454 грн.</span>
-                            <span class="buyTovar">купить</span>
-                        </div>
-                    </div>
-                </div> -->
-
+                {{/each}}
             </div>
         </div>
     </div>
-
 </template>

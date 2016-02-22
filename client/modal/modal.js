@@ -56,6 +56,7 @@ Template.modal2.events({
                     console.log('error methods moadal2');
                 }else{
                      $('#modal2').closeModal();
+                     ga('send', 'event', 'submit_button', 'zakazat_zvonok');
                      $('#modal3').openModal();
                 }
 

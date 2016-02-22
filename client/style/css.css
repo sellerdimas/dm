@@ -2,9 +2,10 @@
   width: 100%;
   margin-bottom: 10px;
   margin-top: 20px;
+  position: relative;
 }
 iframe{
-  margin-top: 20px;
+  margin: 32px 30px 0 27px;
 }
 /* =============================fonts============================== */
 /* =============================tovar============================== */
@@ -16,6 +17,7 @@ iframe{
 }
 .tovarBlock{
   cursor: pointer;
+  position: relative;
 }
 .tovarHeader{
     font-size: 15px;
@@ -50,6 +52,36 @@ iframe{
   text-decoration: line-through;
   margin-right: 5px;
 }
+.sale{
+    background: rgba(0,0,0,0.7);
+  color: #FFFFFF;
+  font-size: 14px;
+  position: absolute;
+  right: -5px;
+  top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  font-family: OpenSansBold;
+  z-index: 1;
+  padding: 13px 0 5px 8px;
+
+}
+.new{
+    background: rgba(103,58,183,0.7);
+  color: #FFFFFF;
+  font-size: 14px;
+  position: absolute;
+  right: -5px;
+  top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  font-family: OpenSansBold;
+  z-index: 1;
+  padding: 13px 0 5px 8px;
+
+}
 /* =============================tovar============================== */
 /* =============================infoBlock============================== */
 .tangle{
@@ -57,21 +89,22 @@ iframe{
 }
 .infoBlock{
   height: 600px;
-      background:url(https://pp.vk.me/c630130/v630130230/157ad/Yj_qpPf-c0g.jpg) center no-repeat;
+            background:url(fon.jpg);
+
 
   color: #ffffff;
 }
 .infoBlock2{
-    height: 600px;
-      background:url(https://pp.vk.me/c630130/v630130603/15a9a/gw_I5l-8fOs.jpg) center no-repeat;
-
+    height: 634px;
+background:url(fon.jpg);
   color: #ffffff;
+  padding-top: 40px;
 }
 .info1{
   margin-top: 85px;
-  height: 120px;
-  background: rgba(233,30,99,0.5);
+  height: 430px;
   padding: 60px 0 10px 0;
+    overflow: visible;
 }
 .info1 h4{
   margin: 40px 0 30px 0;
@@ -89,7 +122,8 @@ iframe{
 } 
 .info3{
   height: 310px;
-      background: rgba(94,53,177,0.5);
+ 
+    border-radius: 20px 0 0 20px;
 
     margin-bottom: 85px;
 }
@@ -131,6 +165,17 @@ iframe{
 .infoBlockButt:hover{
   background: #E94660;
 }
+.present {
+  background: rgba(255,255,255,0.95);
+  border-radius: 20px;
+  height: 310px;
+  border: 3px solid #E94660;
+}
+.presentHead{
+  color: #333333;
+  font-family:OpenSansBold;
+  font-size: 20px; 
+}
 /* =============================infoBlock============================== */
 /* =============================advantages============================== */
 #advantages{
@@ -149,6 +194,14 @@ iframe{
   color: #414141;
 }
 /* =============================advantages============================== */
+.tvBlock{
+  margin: 0 auto;
+  width: 650px;
+  height: 600px;
+      background:url(ima.png) center no-repeat;
+
+
+}
 @font-face {
 font-family: blisspro-light;
 src: local("blisspro-light"), url("fonts/blisspro-light.otf");
@@ -276,7 +329,7 @@ nav ul a:hover {
 
 .sliderButton{
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 auto;
   font-weight: 600;
   width: 250px;
@@ -292,7 +345,7 @@ nav ul a:hover {
   color: #E94660;
 
   background: #FFFFFF;
-  border: 4px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
 
 }
 .sliderButton p {
@@ -346,7 +399,7 @@ nav ul a:hover {
 }
 /* ===================================info=============================== */
 .info{
-    background-color: #E94660;
+    background:#E94660;
     padding-top: 70px;
     padding-bottom: 70px;
     font-family: ClinicaPro-Regular;

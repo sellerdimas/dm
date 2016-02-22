@@ -22,29 +22,6 @@ Meteor.methods({
     });
     return 1;
   },
-  addVisitor: function(user){
-    var date = new Date();
-    var options = {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-      weekday: 'long',
-      timezone: 'UTC',
-      hour: 'numeric',
-      minute: 'numeric',
-      second: 'numeric'
-    };
-    if( !FullDay.findOne({ipAddress: user.ipAddress}) ){
-        FullDay.insert({
-            ipAddress: user.ipAddress,
-            browser: user.userAgent.browser.family,
-            os: user.userAgent.os.family,
-            date: date.toLocaleString("en-US", options),
-            referer: user.referer || 'undefined'
-        });
-    }
-
-  },
   Orders: function (value) {
     var date = new Date();
     var options = {
@@ -91,26 +68,6 @@ Meteor.methods({
     
   }
 });
-var second = 1000 * 3600;
-Meteor.setInterval(function () {
-    var now = new Date();
-    var options = {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-      weekday: 'long',
-      timezone: 'EET',
-      hour: 'numeric',
-      minute: 'numeric',
-      second: 'numeric'
-    };
-    var countVisitors = FullDay.find().count();
-    FullDay.remove({});
-    CountVisits.insert({
-            count: countVisitors,
-            date: date.toLocaleString("en-US", options)
-        });
-}, second);
 
 
 Meteor.publish('newcollections',function () {
