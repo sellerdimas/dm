@@ -1,23 +1,25 @@
 Template.nav.events({
 	'click .brand-logo':function(e){
 		e.preventDefault();
-		$("body,html").animate({scrollTop: 1 }, 800);
+		var destination = $('.tovar').offset().top;
+		var minus = destination - 60;
+		$("body,html").animate({scrollTop: minus }, 800);
 	}
 });
 
-/*Template.nav.events({
-	'click li a':function(e){
+Template.nav.events({
+	'click .navScroll':function(e){
 		e.preventDefault();
 		var atribyte = $(e.target).attr("href");
 		var destination = $('.' + atribyte).offset().top;
-		var minus = destination - 95;
+		var minus = destination - 60;
 		if(atribyte === 'port'){
 			minus -= 40;
 		}
 		$("body,html").animate({scrollTop: minus }, 800);
 
 	}
-});*/
+});
 
 Template.nav.events({
 	'click .ru':function(e){

@@ -1,207 +1,5 @@
-.servicesBlockImg{
-  width: 100%;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  position: relative;
-}
-iframe{
-  margin: 32px 30px 0 27px;
-}
 /* =============================fonts============================== */
-/* =============================tovar============================== */
-.tovar{
-  min-height: 600px;
-  padding-bottom: 50px;
-  
 
-}
-.tovarBlock{
-  cursor: pointer;
-  position: relative;
-}
-.tovarHeader{
-    font-size: 15px;
-    color: #333333;
-    line-height: 22px;
-    font-family: OpenSansBold;
-}
-.ModalTovarHeader{
-  font-family: OpenSansBold;
-  font-size: 20px;
-}
-.firma{
-    font-size: 14px;
-    margin: 2px 0;
-    color: #333333;
-}
-.modalFirma{
-  font-size: 10px;
-}
-.price{
-    color: #999999;
-}
-.buyTovar{
-  float: right;
-  color: #E94660;
-  cursor: pointer;
-}
-.buyTovar:hover{
-  text-decoration: underline;
-}
-.akcia{
-  text-decoration: line-through;
-  margin-right: 5px;
-}
-.sale{
-    background: rgba(0,0,0,0.7);
-  color: #FFFFFF;
-  font-size: 14px;
-  position: absolute;
-  right: -5px;
-  top: 5px;
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  font-family: OpenSansBold;
-  z-index: 1;
-  padding: 13px 0 5px 8px;
-
-}
-.new{
-    background: rgba(103,58,183,0.7);
-  color: #FFFFFF;
-  font-size: 14px;
-  position: absolute;
-  right: -5px;
-  top: 5px;
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  font-family: OpenSansBold;
-  z-index: 1;
-  padding: 13px 0 5px 8px;
-
-}
-/* =============================tovar============================== */
-/* =============================infoBlock============================== */
-.tangle{
-  color:#E94660;
-}
-.infoBlock{
-  height: 600px;
-            background:url(fon.jpg);
-
-
-  color: #ffffff;
-}
-.infoBlock2{
-    height: 634px;
-background:url(fon.jpg);
-  color: #ffffff;
-  padding-top: 40px;
-}
-.info1{
-  margin-top: 85px;
-  height: 430px;
-  padding: 60px 0 10px 0;
-    overflow: visible;
-}
-.info1 h4{
-  margin: 40px 0 30px 0;
-
-}
-.info2{
-  margin-top: 85px;
-  height: 120px;
-  background: rgba(1,1,1,0.6);
-  overflow: hidden;
-
-}
-.info2 h4{
-  margin: 10px 0 5px 0;
-} 
-.info3{
-  height: 310px;
- 
-    border-radius: 20px 0 0 20px;
-
-    margin-bottom: 85px;
-}
-.info3 ul{
-    font-size: 18px;
-    font-weight: 600;
-    margin: 20px auto;
-    width: 310px;
-}
-.info3 ul li{
-    margin-top: 10px;
-}
-.info4{
-  height: 310px;
- background: rgba(189,189,189,0.8);
-
- color:#333333;
-}
-.info4 h5{
-  font-family: OpenSansBold;
-  color: black;
-}
-.name2, .number2{
-  margin-left: 5px;
-  font-family: OpenSansBold;
-}
-#number2,#name2{
-  background: #FFFFFF;
-  font-weight: 600;
-  border-radius: 5px;
-  border-bottom: 1px solid #f5f5f5;
-    box-shadow: 0 1px 0 0 #f5f5f5;
-}
-.infoBlockButt{
-   margin: 15px 0 20px 0;
-  background: #E94660;
-  font-weight: 600;
-}
-.infoBlockButt:hover{
-  background: #E94660;
-}
-.present {
-  background: rgba(255,255,255,0.95);
-  border-radius: 20px;
-  height: 310px;
-  border: 3px solid #E94660;
-}
-.presentHead{
-  color: #333333;
-  font-family:OpenSansBold;
-  font-size: 20px; 
-}
-/* =============================infoBlock============================== */
-/* =============================advantages============================== */
-#advantages{
-  padding-bottom: 50px;
-}
-.advantages img{
-  float: left;
-}
-.advantages h5{
-  font-family: OpenSansBold;
-  font-size: 18px;
-  color: #333333;
-}
-.advantages p{
-
-  color: #414141;
-}
-/* =============================advantages============================== */
-.tvBlock{
-  margin: 0 auto;
-  width: 650px;
-  height: 600px;
-      background:url(ima.png) center no-repeat;
-
-
-}
 @font-face {
 font-family: blisspro-light;
 src: local("blisspro-light"), url("fonts/blisspro-light.otf");
@@ -294,10 +92,6 @@ nav ul a:hover {
     font-size: 14px;
     color: #2a2a2a;
 }
-/* .right img{
-    margin-top: 11px;
-    margin-left: 4px;
-} */
 .navButton{
   color: #E94660;
   font-size: 20px;
@@ -306,8 +100,8 @@ nav ul a:hover {
   width: 250px;
   border: 4px solid #E94660;
   height: 50px;
-    border-radius: 50px;
-    cursor: pointer;
+  border-radius: 50px;
+  cursor: pointer;
 }
 #navButton{
     background: #E94660;
@@ -330,20 +124,20 @@ nav ul a:hover {
 .sliderButton{
   color: #FFFFFF;
   font-size: 18px;
-  margin: 0 auto;
+  margin: 0 auto 45px auto;
   font-weight: 600;
   width: 250px;
   border: 4px solid #FFFFFF;
   height: 50px;
-    border-radius: 50px;
-    cursor: pointer;
+  border-radius: 50px;
+  cursor: pointer;
+
 }
 
 
 
 .sliderButton:hover{
   color: #E94660;
-
   background: #FFFFFF;
   border: 2px solid #FFFFFF;
 
@@ -378,25 +172,175 @@ nav ul a:hover {
     color: white;
     margin-top: 200px;
 }
-.MainArrowBlock{
-    position: absolute;
-    bottom: 1px;
+.mainContent{
+   background: rgba(1,1,1,0.6);
+}
+.podHeader{
+  color: #FFFFFF;
 
 }
-.MainArrowBlock img{
-    cursor: pointer;
+.jmi{
+  font-family: OpenSansBold;
+  font-size: 16px;
 }
 /*==================================mainSlider==============================*/
-.aboutUs{
-    min-height: 400px;
-    background-color: #F5F5F5;
+/* =============================tovar============================== */
+.tovar{
+  min-height: 600px;
+  padding-bottom: 50px;
+  
+
 }
-.aboutUs button {
-    margin: 20px;
+.tovarBlock{
+  cursor: pointer;
+  position: relative;
 }
-.man2{
-    margin-top: 50px;
+.servicesBlockImg{
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  position: relative;
 }
+.tovarHeader{
+    font-size: 15px;
+    color: #333333;
+    line-height: 22px;
+    font-family: OpenSansBold;
+}
+.ModalTovarHeader{
+  font-family: OpenSansBold;
+  font-size: 20px;
+}
+.firma{
+    font-size: 14px;
+    margin: 2px 0;
+    color: #333333;
+}
+.modalFirma{
+  font-size: 10px;
+}
+.price{
+    color: #999999;
+}
+.buyTovar{
+  float: right;
+  color: #E94660;
+  cursor: pointer;
+}
+.buyTovar:hover{
+  text-decoration: underline;
+}
+.akcia{
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+.sale{
+    background: rgba(0,0,0,0.7);
+  color: #FFFFFF;
+  font-size: 14px;
+  position: absolute;
+  right: -5px;
+  top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  font-family: OpenSansBold;
+  z-index: 1;
+  padding: 13px 0 5px 8px;
+
+}
+.new{
+    background: rgba(103,58,183,0.7);
+  color: #FFFFFF;
+  font-size: 14px;
+  position: absolute;
+  right: -5px;
+  top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  font-family: OpenSansBold;
+  z-index: 1;
+  padding: 13px 0 5px 8px;
+
+}
+/* =============================tovar============================== */
+/* =============================infoBlock============================== */
+.infoPresent{
+  background:url(fon.jpg);
+}
+
+
+
+.info1{
+  margin-top: 85px;
+  height: 430px;
+  padding: 60px 0 10px 0;
+}
+.info1 h4{
+  margin: 40px 0 30px 0;
+}
+.info2{
+  margin-top: 70px;
+  min-height: 120px;
+  background: rgba(1,1,1,0.6);
+
+}
+.info2 h4{
+  margin: 10px 0 5px 0;
+  font-size: 30px;
+} 
+
+.info4{
+  height: 310px;
+ background: rgba(189,189,189,0.8);
+ color:#333333;
+ margin-bottom: 70px;
+}
+.info4 h5{
+  font-family: OpenSansBold;
+  color: black;
+}
+.tangle{
+  color:#E94660;
+}
+.name2, .number2{
+  margin-left: 5px;
+  font-family: OpenSansBold;
+}
+#number2,#name2{
+  background: #FFFFFF;
+  font-weight: 600;
+  border-radius: 5px;
+  border-bottom: 1px solid #f5f5f5;
+    box-shadow: 0 1px 0 0 #f5f5f5;
+}
+.infoBlockButt{
+   margin: 15px 0 20px 0;
+  background: #E94660;
+  font-weight: 600;
+}
+.infoBlockButt:hover{
+  background: #E94660;
+}
+/* =============================infoBlock============================== */
+/* =============================advantages============================== */
+#advantages{
+  padding-bottom: 50px;
+}
+.advantages img{
+  float: left;
+}
+.advantages h5{
+  font-family: OpenSansBold;
+  font-size: 18px;
+  color: #333333;
+}
+.advantages p{
+
+  color: #414141;
+}
+/* =============================advantages============================== */
 /* ===================================info=============================== */
 .info{
     background:#E94660;
@@ -414,133 +358,39 @@ nav ul a:hover {
     color: #FFFFFF;
 }
 /* ===================================info=============================== */
+/* ===================================proces=============================== */
 .proces h5{
-
     font-family: OpenSansBold;
     font-size: 20px;
     color: #414141;
-
 }
 .proces {
   margin-top: 50px;
   margin-bottom: 100px;
 }
-.procesBlock{
+/* ===================================proces=============================== */
+/* =============================videoBlock============================== */
+.videoBlock{
+    height: 634px;
+background:url(fon.jpg);
+  color: #ffffff;
+  padding-top: 40px;
+}
+.tvBlock{
+  margin: 0 auto;
+  width: 650px;
+  height: 600px;
+  background:url(ima.png) center no-repeat;
 
 }
-/* ===================================services=============================== */
-
-.servicesMain{
-    min-height: 600px;
-    max-width: 100%;
-    z-index: 0;
-    overflow: hidden;
-    padding-bottom: 70px;
+iframe{
+  margin: 32px 30px 0 27px;
 }
-.priceRed{
-  text-decoration:line-through;
-  color: #FF1744;
-
-}
-.priceGreen{
-  color: #00C853;
-
-}
-.card-panel{
-  margin: 0.75rem 0;
-  cursor: pointer;
-
-}
-
-.servText{
-  font-size: 1.125rem;
-
-}
-.servHeader{
-  font-size: 1.625rem;
-  margin: 0 0 0 0;
-}
-.servUnderHeader{
-  font-size: 1.4rem;
-    margin: 0 0 5px 0;
-}
-.valign-wrapper h5{
-    margin: 0 0 15px 0;
-}
-.valign-wrapper{
-  min-height: 120px;
-  overflow: hidden;
-}
-.card-panel img {
-    display: inline-block;
-  vertical-align: middle;
-
-}
-.card-panel:hover{
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-.servicesHideLeft{
-    position: relative;
-    left: -150%;
-    text-align: left;
-
-}
-.servicesHideRight{
-    position: relative;
-    right: -150%;
-    text-align: right;
-
-}
-.servicesHideLeft2{
-    position: relative;
-    left: -150%;
-    text-align: left;
-}
-.servicesHideRight2{
-    position: relative;
-    right: -150%;
-    text-align: right;
-
-}
-
-/* ===================================contact=============================== */
-.contactBlock{
-    margin-top: 20px 0 40px 0;
-}
-.contactHead{
-    color: #2196F3;
-    margin: 20px 0 0 0;
-    font-size: 1.25rem;
-}
-.contactInformation{
-    min-height: 200px;
-    padding-top: 100px;
-}
-.contactInformation p{
-    font-size: 1.125rem;
-    margin-bottom: 0;
-    margin-top: 10px;
-}
-.contactInformation img{
-    margin-right: 25px;
-    cursor: pointer;
-}
-#contactButton{
-    margin-left: 10px;
-    float: right;
-    margin-bottom: 40px;
-}
-.social img{
-    margin-left: 5px;
-}
-/* ===================================contact=============================== */
+/* =============================videoBlock============================== */
+/* ===================================modal=============================== */
 .modal{
     font-family: ClinicaPro-Regular;
 }
-/* .modal img{
-  float: left;
-} */
 .modalPrice{
   font-size: 24px;
   color: #999999;
@@ -549,12 +399,6 @@ nav ul a:hover {
   text-decoration: line-through;
   margin-left: 10px;
 }
-/* .modalPrice{
-  margin-bottom: 20px;
-}
-.modalBorder{
-  border-bottom: 1px solid grey;
-} */
 .modal p{
     font-size: 16px;
 }
@@ -600,8 +444,6 @@ nav ul a:hover {
   z-index: 55;
 
 }
-
-
 .modalButt{
   width: 170px;
   height: 40px;
@@ -623,19 +465,11 @@ nav ul a:hover {
   cursor: pointer;
 
 }
-
-.map{
-  height: 220px;
-    background:url(World-Map3.png) center no-repeat;
-    background-size:cover;
-}
-.textContentBlack img{
-  margin-bottom: 12px;
-  margin-right: 4px;
-}
 .slide span{
   font-size: 20px;
 }
+/* ===================================modal=============================== */
+
 /*=============================preLoader============================== */
 .loading-message {
   color: #ffffff;

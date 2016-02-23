@@ -10,6 +10,7 @@ Template.infoBlock.events({
                 if(err){
                     console.log('error methods moadal2');
                 }else{
+                    ga('send', 'event', 'submit_infoBlock', 'akcia_block');
                      $('#modal3').openModal();
                 }
 
