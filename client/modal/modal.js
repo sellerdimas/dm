@@ -18,10 +18,7 @@ Template.modal1.onRendered(function () {
 Template.modal1.events({
     'click .modalPhoto img': function (e, tmpl) {
        var imgSrc = $(e.target).attr('src');
-            console.log(e);
-            console.log(tmpl);
             $('#mainImg').attr('src', imgSrc);
-            console.log(Template.currentData());
     }
 });
 
@@ -57,7 +54,9 @@ Template.modal2.events({
                 }else{
                      $('#modal2').closeModal();
                      ga('send', 'event', 'submit_modal2', 'zakazat_zvonok' ,'10');
+                     yaCounter35733290.reachGoal('zvonok');
                      $('#modal3').openModal();
+                     
                 }
 
             });       
@@ -87,7 +86,9 @@ Template.modal1.events({
                 }else{
                      $('#modal1').closeModal();
                      ga('send', 'event', 'submit_modal1', 'kypit_kypalnik', '10');
+                    yaCounter35733290.reachGoal('main_zakaz');
                      $('#modal3').openModal();
+                     
                 }
 
             });       

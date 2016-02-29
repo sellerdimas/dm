@@ -147,18 +147,19 @@ nav ul a:hover {
 }
 .mainSlider {
     width:100%;
-    min-height:100%;
+    min-height:700px;
     height: auto;
-    background:url(https://pp.vk.me/c627719/v627719486/4b0c1/zvLFrkBLTRk.jpg) center no-repeat;
+    background:url(https://pp.vk.me/c630717/v630717473/1cf46/e7lnQyUIsDQ.jpg) center no-repeat;
     background-size:cover;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 .mainContentText1{
     color: white;
     margin-bottom: 0;
-    font-size: 36px;
+    font-size: 33px;
     font-weight: 600;
     font-family: OpenSansBold;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.8);
 }
 
 .mainContentText2{
@@ -173,7 +174,7 @@ nav ul a:hover {
     margin-top: 200px;
 }
 .mainContent{
-   background: rgba(1,1,1,0.6);
+  /*  background: rgba(1,1,1,0.6); */
 }
 .podHeader{
   color: #FFFFFF;
@@ -283,7 +284,7 @@ nav ul a:hover {
 .info2{
   margin-top: 70px;
   min-height: 120px;
-  background: rgba(1,1,1,0.6);
+  background: rgba(1,1,1,0.8);
 
 }
 .info2 h4{
@@ -370,26 +371,32 @@ nav ul a:hover {
 }
 /* ===================================proces=============================== */
 /* =============================videoBlock============================== */
-.videoBlock{
-    height: 634px;
-background:url(fon4.png);
-  color: #ffffff;
-  padding-top: 40px;
-}
+
 .tv{
-  /* background:url(fon5.png); */
-  background: #E94660;
+   /* background:url(mon.jpg);  */
+/*   background: #E94660; */
 }
 .tvBlock{
   margin: 0 auto;
   width: 900px;
-  height: 550px;
-  background:url(preview2.jpg) center no-repeat;
+  height: 615px;
+  background:url(monitor2.png) center no-repeat;
   background-size: 100%;
 
 }
-iframe{
-  margin: 55px 30px 0 143px;
+.tvBlock1{
+  margin: 0 auto;
+  width: 600px;
+  height: 415px;
+  background:url(monitor2.png) center no-repeat;
+  background-size: 100%;
+
+}
+.tvBlock iframe{
+  margin: 50px 70px 0 200px;
+}
+#tv {
+  margin: 36px 0px 0 134px;
 }
 /* =============================videoBlock============================== */
 /* ===================================modal=============================== */
@@ -474,9 +481,11 @@ iframe{
   font-size: 20px;
 }
 /* ===================================modal=============================== */
-
+#map{
+  width: 100%;
+}
 /*=============================preLoader============================== */
-.loading-message {
+/* .loading-message {
   color: #ffffff;
   font-size: 50px;
   font-weight: 300;
@@ -618,6 +627,127 @@ iframe{
 @keyframes sk-circleFadeDelay {
   0%, 39%, 100% { opacity: 0; }
   40% { opacity: 1; } 
-}
+} */
 
 /* =============================preLoader============================== */
+.sk-circle {
+  margin: 100px auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.sk-circle .sk-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.sk-circle .sk-child:before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  height: 15%;
+  background-color: #E94660;
+  border-radius: 100%;
+  -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+          animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+}
+.sk-circle .sk-circle2 {
+  -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg); }
+.sk-circle .sk-circle3 {
+  -webkit-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+          transform: rotate(60deg); }
+.sk-circle .sk-circle4 {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg); }
+.sk-circle .sk-circle5 {
+  -webkit-transform: rotate(120deg);
+      -ms-transform: rotate(120deg);
+          transform: rotate(120deg); }
+.sk-circle .sk-circle6 {
+  -webkit-transform: rotate(150deg);
+      -ms-transform: rotate(150deg);
+          transform: rotate(150deg); }
+.sk-circle .sk-circle7 {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+.sk-circle .sk-circle8 {
+  -webkit-transform: rotate(210deg);
+      -ms-transform: rotate(210deg);
+          transform: rotate(210deg); }
+.sk-circle .sk-circle9 {
+  -webkit-transform: rotate(240deg);
+      -ms-transform: rotate(240deg);
+          transform: rotate(240deg); }
+.sk-circle .sk-circle10 {
+  -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+          transform: rotate(270deg); }
+.sk-circle .sk-circle11 {
+  -webkit-transform: rotate(300deg);
+      -ms-transform: rotate(300deg);
+          transform: rotate(300deg); }
+.sk-circle .sk-circle12 {
+  -webkit-transform: rotate(330deg);
+      -ms-transform: rotate(330deg);
+          transform: rotate(330deg); }
+.sk-circle .sk-circle2:before {
+  -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s; }
+.sk-circle .sk-circle3:before {
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s; }
+.sk-circle .sk-circle4:before {
+  -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s; }
+.sk-circle .sk-circle5:before {
+  -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s; }
+.sk-circle .sk-circle6:before {
+  -webkit-animation-delay: -0.7s;
+          animation-delay: -0.7s; }
+.sk-circle .sk-circle7:before {
+  -webkit-animation-delay: -0.6s;
+          animation-delay: -0.6s; }
+.sk-circle .sk-circle8:before {
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s; }
+.sk-circle .sk-circle9:before {
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s; }
+.sk-circle .sk-circle10:before {
+  -webkit-animation-delay: -0.3s;
+          animation-delay: -0.3s; }
+.sk-circle .sk-circle11:before {
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s; }
+.sk-circle .sk-circle12:before {
+  -webkit-animation-delay: -0.1s;
+          animation-delay: -0.1s; }
+
+@-webkit-keyframes sk-circleBounceDelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  } 40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes sk-circleBounceDelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  } 40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}

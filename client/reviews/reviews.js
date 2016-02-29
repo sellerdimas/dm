@@ -13,7 +13,7 @@
         defaults = {
             
             // {Int or Bool} False for turning off autoplay
-            autoplay: 4000,
+            autoplay: 0,
             // {Bool} Pause autoplay on mouseover slider
             hoverpause: true,
             

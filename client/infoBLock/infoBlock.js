@@ -11,7 +11,8 @@ Template.infoBlock.events({
                     console.log('error methods moadal2');
                 }else{
                     ga('send', 'event', 'submit_infoBlock', 'akcia_block', '10');
-                     $('#modal3').openModal();
+                    yaCounter35733290.reachGoal('akcia');
+                    $('#modal3').openModal();
                 }
 
             });       
