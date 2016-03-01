@@ -252,6 +252,8 @@ animation-duration:2s;
 .tovar{
   min-height: 600px;
   padding-bottom: 50px;
+    box-shadow: inset 0 1px 0 0 #d8d8d8;
+   
   
 
 }
@@ -332,6 +334,7 @@ animation-duration:2s;
 /* =============================infoBlock============================== */
 .infoPresent{
   background:url(shopping2.jpg);
+  
 }
 
 
@@ -391,6 +394,7 @@ animation-duration:2s;
 /* =============================advantages============================== */
 #advantages{
   padding-bottom: 50px;
+   
 }
 .advantages img{
   float: left;
@@ -411,6 +415,7 @@ animation-duration:2s;
     padding-top: 70px;
     padding-bottom: 70px;
     font-family: ClinicaPro-Regular;
+    
 }
 .info h5{
     font-family: OpenSansBold;
@@ -436,8 +441,8 @@ animation-duration:2s;
 /* =============================videoBlock============================== */
 
 .tv{
-   /* background:url(mon.jpg);  */
-/*   background: #E94660; */
+   
+  background: url(shopping4.jpg);
 }
 .tvBlock{
   margin: 0 auto;
@@ -547,6 +552,25 @@ animation-duration:2s;
 #map{
   width: 100%;
 }
+footer.page-footer {
+/*  padding-top: 20px;*/
+  background-color: #E94660;
+/*     box-shadow: inset 0 1px 6px 0 #d8d8d8; */
+    color:#FFFFFF;
+    font-family: OpenSansRegular;
+  }
+  footer.page-footer p{
+/*  padding-top: 20px;*/
+    color:#FFFFFF; 
+  }
+    footer.page-footer a{
+      cursor: default;
+/*  padding-top: 20px;*/
+    color:#FFFFFF; 
+  }
+  .send{
+    margin-left: 30px;
+  }
 /*=============================preLoader============================== */
 /* .loading-message {
   color: #ffffff;
