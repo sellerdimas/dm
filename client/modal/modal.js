@@ -28,7 +28,7 @@ Template.modal1.events({
     }
 });
 Template.modal1.events({
-    'click .modalPhoto img': function (e, tmpl) {
+    'click .autoplay img': function (e, tmpl) {
        var imgSrc = $(e.target).attr('src');
             $('#mainImg').attr('src', imgSrc);
     }
