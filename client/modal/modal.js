@@ -13,8 +13,20 @@ Template.modal1.helpers({
   });
 Template.modal1.onRendered(function () {
     $('select').material_select();
+
+    $('.collapsible').collapsible();
+    $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    });
+
+  
 })
 
+Template.modal1.events({
+    'click .collapsible': function (e) {
+    
+    }
+});
 Template.modal1.events({
     'click .modalPhoto img': function (e, tmpl) {
        var imgSrc = $(e.target).attr('src');
@@ -25,6 +37,7 @@ Template.modal1.events({
 Template.modal1.events({
     'click .close': function (e) {
         $('#modal1').closeModal();
+            
 
     }
 });

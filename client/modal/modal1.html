@@ -3,7 +3,7 @@
         <div class="modal-content">
             <div class="row">
                 <div class="col s12">
-                <img src="closed1.png" class="close" alt="">
+                    <img src="closed1.png" class="close" alt="">
                     {{#each modalNewCollections}}
                     <!-- <h3 class="center-align">{{modalHelper.tovarHeader}}</h3>
                 -->
@@ -43,6 +43,7 @@
                                 </p>
                                 <p>Выберите размер (Size), а затем цвет (Color)</p>
                             </div>
+
                             <div class="col s3">
                                 <label>Размер</label>
                                 <select class="browser-default selectSize">
@@ -78,6 +79,44 @@
                                     {{/if}}
                                 </select>
                             </div>
+                            <div class="col s12">
+                                <section class="ac-container">
+
+                                    <div>
+                                        <input id="ac-2" name="accordion-1" type="checkbox" />
+                                        <label for="ac-2">Характеристики</label>
+                                        <article class="ac-medium">
+                                            {{#if har1}}
+                                            <p>{{har1}}</p>
+                                            {{/if}}
+                                            {{#if har2}}
+                                            <p>{{har2}}</p>
+                                            {{/if}}
+                                            {{#if har3}}
+                                            <p>{{har3}}</p>
+                                            {{/if}}
+                                            {{#if har4}}
+                                            <p>{{har4}}</p>
+                                            {{/if}}
+                                            {{#if har5}}
+                                            <p>{{har5}}</p>
+                                            {{/if}}
+                                            {{#if har6}}
+                                            <p>{{har6}}</p>
+                                            {{/if}}
+                                            {{#if har7}}
+                                            <p>{{har7}}</p>
+                                            {{/if}}
+                                            {{#if har8}}
+                                            <p>{{har8}}</p>
+                                            {{/if}}
+                                        </article>
+                                    </div>
+
+                                </section>
+                            </div>
+                          
+
                             <div class="input-field col s12">
                                 <input id="name" type="text" class="validate">
                                 <label for="name">Ваше имя</label>
@@ -88,7 +127,9 @@
                             </div>
 
                             <div class="col s12">
-                                <div class="modalButt"><span class="send">Отправить</span></div>
+                                <div class="modalButt">
+                                    <span class="send">Отправить</span>
+                                </div>
                             </div>
 
                         </div>
