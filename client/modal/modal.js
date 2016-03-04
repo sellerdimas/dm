@@ -90,8 +90,7 @@ Template.modal1.events({
                 color: $('.selectColor').val(),
                 name: $('#name').val(),
                 number: $('#namber').val()
-            }
-            
+            }         
             if(modalVal.name && modalVal.number){
             Meteor.call('Orders',modalVal, function (err, res) {
                 if(err){
@@ -103,7 +102,6 @@ Template.modal1.events({
                      $('#modal3').openModal();
                      
                 }
-
             });       
         }else{
             alert('Вы не ввели имя или телефон');
