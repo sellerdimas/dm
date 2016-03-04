@@ -10,8 +10,8 @@ Template.infoBlock.events({
                 if(err){
                     console.log('error methods moadal2');
                 }else{
-                    ga('send', 'event', 'submit_infoBlock', 'akcia_block', '10');
-                    yaCounter35733290.reachGoal('akcia');
+                    ga('send', 'event', 'akcia', 'send_akcia');
+                    yaCounter35842265.reachGoal('akcia');
                     $('#modal3').openModal();
                 }
 

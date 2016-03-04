@@ -66,8 +66,8 @@ Template.modal2.events({
                     console.log('error methods moadal2');
                 }else{
                      $('#modal2').closeModal();
-                     ga('send', 'event', 'submit_modal2', 'zakazat_zvonok' ,'10');
-                     yaCounter35733290.reachGoal('zvonok');
+                     ga('send', 'event', 'zvonok', 'zakaz_zvonka');
+                     yaCounter35842265.reachGoal('zvonok');
                      $('#modal3').openModal();
                      
                 }
@@ -98,8 +98,8 @@ Template.modal1.events({
                     console.log('error methods');
                 }else{
                      $('#modal1').closeModal();
-                     ga('send', 'event', 'submit_modal1', 'kypit_kypalnik', '10');
-                    yaCounter35733290.reachGoal('main_zakaz');
+                     ga('send', 'event', 'zakaz', 'buy_kypalnik');
+                    yaCounter35842265.reachGoal('zakaz');
                      $('#modal3').openModal();
                      
                 }
