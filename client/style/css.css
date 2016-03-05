@@ -62,6 +62,14 @@ src: local("OpenSansBold"), url("fonts/OpenSansBold.ttf");
     margin: 0 0 2rem 0;
 }
 /* =============================class============================== */
+.slider-for span{
+  font-size: 16px;
+  font-family: OpenSansBold;
+
+}
+.slider-for{
+  margin-bottom: 50px;
+}
 body{
     font-family: OpenSansRegular;                                                                                     
     color: #414141;
@@ -469,7 +477,7 @@ animation-duration:2s;
 /* =============================videoBlock============================== */
 /* ===================================modal=============================== */
 .modal{
-    font-family: ClinicaPro-Regular;
+    font-family: OpenSansRegular;
 }
 .modalPrice{
   font-size: 24px;
@@ -857,7 +865,7 @@ footer.page-footer {
       line-height: 1.5rem;
 }
 .ac-container label{
-  padding: 5px 10px;
+  padding: 3px 10px 0 10px;
   position: relative;
   z-index: 20;
   display: block;
