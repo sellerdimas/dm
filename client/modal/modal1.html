@@ -12,40 +12,34 @@
                     <div class="col s6">
                         <div class="col s12">
                             <img src="{{imgSrc}}" class="responsive-img" alt="" id="mainImg"></div>
-
-                             {{#if smallImg1}}
-                                    <div class="col s4 modalPhoto" id="modalPhoto1">
-                                        <img src="{{imgSrc}}" class="responsive-img" alt=""></div>
-                                    {{/if}}
+                        {{#if smallImg1}}
+                        <div class="col s4 modalPhoto" id="modalPhoto1">
+                            <img src="{{imgSrc}}" class="responsive-img" alt=""></div>
+                        {{/if}}
                                 {{#if smallImg1}}
-                                    <div class="col s4 modalPhoto" id="modalPhoto2">
-                                        <img src="{{smallImg1}}" class="responsive-img" alt=""></div>
-                                    {{/if}}
+                        <div class="col s4 modalPhoto" id="modalPhoto2">
+                            <img src="{{smallImg1}}" class="responsive-img" alt=""></div>
+                        {{/if}}
                               {{#if smallImg2}}
-                                    <div class="col s4 modalPhoto" id="modalPhoto3">
-                                        <img src="{{smallImg2}}" class="responsive-img" alt=""></div>
-                                    {{/if}}
-                            <!-- <ul class="slides">
-                            <li class="slide">
-                                <div class="box center-align col s12 testimonals">
-                                  
+                        <div class="col s4 modalPhoto" id="modalPhoto3">
+                            <img src="{{smallImg2}}" class="responsive-img" alt=""></div>
+                        {{/if}}
+                        <!-- <ul class="slides">
+                        <li class="slide">
+                            <div class="box center-align col s12 testimonals"></div>
+                        </li>
+                        <li class="slide">
+                            <div class="box  col s10 offset-s1 center-align">
+                                <img src="http://okna-rosi.ru/wp-content/uploads/2015/03/call-centr.jpg" alt="" class="responsive-img center-align">
+                                <div class="col s10 offset-s1 textContentBlack">
+                                    <span class="">
+                                        С компанией Shopseller мне очень понравилось работать.  Мне менеджеры помогли выбрать купальник. Менеджеры очень вежливые. Я дважды звонила, корректировала заказ. Все очень спокойно поменяли. И купальник очень качественный. Стильный и красивый. Порадовало, конечно, и то, что доставка бесплатная. Буду теперь друзьям советовать обязательно
+                                    </span>
                                 </div>
-                            </li>
-                            <li class="slide">
-                                <div class="box  col s10 offset-s1 center-align">
-                                    <img src="http://okna-rosi.ru/wp-content/uploads/2015/03/call-centr.jpg" alt="" class="responsive-img center-align">
-                                    <div class="col s10 offset-s1 textContentBlack">
-                                        <span class="">
-                                            С компанией Shopseller мне очень понравилось работать.  Мне менеджеры помогли выбрать купальник. Менеджеры очень вежливые. Я дважды звонила, корректировала заказ. Все очень спокойно поменяли. И купальник очень качественный. Стильный и красивый. Порадовало, конечно, и то, что доставка бесплатная. Буду теперь друзьям советовать обязательно
-                                        </span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        -->
-                     
-
-                  
+                            </div>
+                        </li>
+                    </ul>
+                    -->
                 </div>
                 <form class="col s6">
                     <div class="row">
@@ -63,41 +57,41 @@
                             </p>
                             <p>Выберите размер (Size), а затем цвет (Color)</p>
                         </div>
-
+                        <div class="col s3">
+                            <label>Бюст</label>
+                            <select class="browser-default selectSizeByst">
+                                {{#if sByst}}
+                                <option value="{{s}}">{{sByst}}</option>
+                                {{/if}}
+                                    {{#if mByst}}
+                                <option value="{{m}}">{{mByst}}</option>
+                                {{/if}}
+                                    {{#if lByst}}
+                                <option value="{{l}}">{{lByst}}</option>
+                                {{/if}}
+                                    {{#if xlByst}}
+                                <option value="{{xl}}">{{xlByst}}</option>
+                                {{/if}}
+                            </select>
+                        </div>
                         <div class="col s3">
                             <label>Трусы</label>
-                            <select class="browser-default selectSize">
-                                {{#if s}}
-                                <option value="{{s}}">{{s}}</option>
+                            <select class="browser-default selectSize selectSizeTrysu">
+                                {{#if sTrysu}}
+                                <option value="{{s}}">{{sTrysu}}</option>
                                 {{/if}}
-                                    {{#if m}}
-                                <option value="{{m}}">{{m}}</option>
+                                    {{#if mTrysu}}
+                                <option value="{{m}}">{{mTrysu}}</option>
                                 {{/if}}
-                                    {{#if l}}
-                                <option value="{{l}}">{{l}}</option>
+                                    {{#if lTrysu}}
+                                <option value="{{l}}">{{lTrysu}}</option>
                                 {{/if}}
-                                    {{#if xl}}
-                                <option value="{{xl}}">{{xl}}</option>
-                                {{/if}}
-                            </select>
-                        </div>
-                        <div class="col s3">
-                            <label>Бюстгальтер</label>
-                            <select class="browser-default selectSize">
-                                {{#if s}}
-                                <option value="{{s}}">{{s}}</option>
-                                {{/if}}
-                                    {{#if m}}
-                                <option value="{{m}}">{{m}}</option>
-                                {{/if}}
-                                    {{#if l}}
-                                <option value="{{l}}">{{l}}</option>
-                                {{/if}}
-                                    {{#if xl}}
-                                <option value="{{xl}}">{{xl}}</option>
+                                    {{#if xlTrysu}}
+                                <option value="{{xl}}">{{xlTrysu}}</option>
                                 {{/if}}
                             </select>
                         </div>
+
                         <div class="col s6">
 
                             <label>Цвет</label>
@@ -121,7 +115,10 @@
 
                                 <div>
                                     <input id="ac-2" name="accordion-1" type="checkbox" />
-                                    <label for="ac-2">Характеристики</label>
+
+                                    <label for="ac-2">
+                                        Характеристики
+                                        <img src="arDown.png" class="arDown" alt=""></label>
                                     <article class="ac-medium">
                                         {{#if har1}}
                                         <p>{{har1}}</p>
@@ -149,7 +146,9 @@
                                         {{/if}}
                                     </article>
                                 </div>
-
+                                {{#if tableSize}}
+                                <p id="tableSize" name="{{tableSize}}">Смотерть таблицу размеров</p>
+                                {{/if}}
                             </section>
                         </div>
 

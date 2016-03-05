@@ -33,7 +33,12 @@ Template.modal1.events({
             $('#mainImg').attr('src', imgSrc);
     }
 });
-
+Template.modal1.events({
+    'click #tableSize': function (e, tmpl) {
+       var imgSrc = $(e.target).attr('name');
+            $('#mainImg').attr('src', imgSrc);
+    }
+});
 Template.modal1.events({
     'click .close': function (e) {
         $('#modal1').closeModal();
@@ -86,7 +91,8 @@ Template.modal1.events({
                 header: $('.ModalTovarHeader').text(),
                 firma: $('.modalFirma').text(),
                 price: $('.mPirce').text(),
-                size: $('.selectSize').val(),
+                sizeByst: $('.selectSizeByst').val(),
+                sizeTrysu: $('.selectSizeTrysu').val(),
                 color: $('.selectColor').val(),
                 name: $('#name').val(),
                 number: $('#namber').val()
