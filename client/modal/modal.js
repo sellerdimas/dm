@@ -36,7 +36,7 @@ Template.modal1.events({
 Template.modal1.events({
     'click #tableSize': function (e, tmpl) {
        var imgSrc = $(e.target).attr('name');
-            $('#mainImg').attr('src', imgSrc);
+            $('.tablSize').attr('src', imgSrc);
     }
 });
 Template.modal1.events({

@@ -521,8 +521,8 @@ animation-duration:2s;
 }
 .close{
   position: absolute;
-  top: 1px;
-  right: 1px;
+  top: 12px;
+  right: 12px;
   z-index: 9123;
   cursor: pointer;
 }

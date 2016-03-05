@@ -19,11 +19,9 @@ Template.tovar.onRendered(function () {
         }
     );
   $('.tovarBlock').click(function (e) {
+    $('.tablSize').attr('src', 's.png');
         var tovarId = $(this).attr('name');
         Session.set('tovarId', tovarId);
-            $('.collapsible').collapsible({
-      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-    });
         $('#modal1').openModal();
      
 
